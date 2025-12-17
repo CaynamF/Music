@@ -3,8 +3,24 @@
 <head>
 	<title>Music</title>
 	<meta charset="utf-8">
+	<link href="style.css" rel="stylesheet">
 </head>
 <body>
-	
+	<header>
+		<ul class="menu">
+			<li>Item 1</li>		
+			<li>Item 2</li>		
+			<li>Item 3</li>		
+		</ul>
+				
+	</header>
+	<div class="Albums">
+			<h2> System Of a Down</h2>
+			<img src="Images/System Of a Down/Hypnotize.jpg" alt=""> 
+			<img src="Images/System Of a Down/Mezmerize.jpg" alt="">
+			<img src="Images/System Of a Down/Steal This Album!.jpg" alt="">
+			<img src="Images/System Of a Down/System Of A Down.jpg" alt="">
+			<img src="Images/System Of a Down/Toxicity.jpg" alt="">			
+		</div>	
 </body>>
 </html>>

@@ -1,0 +1,34 @@
+body {
+	background-color: #ccc;
+}
+
+/*Menu*/
+
+.menu {
+	text-align: right;
+}
+
+.menu li {
+	list-style-type: none;
+	margin: 5px;
+	display: inline-block;
+}
+
+.menu a {
+	background-color: white;
+	padding: 6px;
+}
+
+.menu a:hover {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+/*Albums*/
+
+.Albums {
+	background-color: white;
+	text-align: center;
+	
+}
