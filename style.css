@@ -2,7 +2,7 @@ body {
 	background-color: #121212;
 }
 
-h1 {
+h2 {
 	color: #FFFFFF;
   	text-align: center;
 }
@@ -29,8 +29,11 @@ a:hover {
 }
 
 .menu a {
-	background-color: white;
-	padding: 6px;
+	background-color: transparent;
+	color: #D4AF37;
+	padding: 8px 15px;
+	border: 1px solid #D4AF37;
+	text-decoration: none;
 }
 
 .menu a:hover {
@@ -47,11 +50,19 @@ a:hover {
   padding: 15px;
   border: 1.5px solid #D4AF37;
   display: inline-block;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.Artist:hover {
+	transform: translateY(-5px);
 }
 
 .Artist img {
   width: 150px;
   height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 /*Estilo*/
