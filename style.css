@@ -1,13 +1,14 @@
 body {
-	background-color: #0A0A0A;
+	background-color: #34344E;
 }
 
 h2 {
-	color: #E0E0E0
+	color: #cbdad5;
+  text-align: center;
 }
 
 p {
-	color: #E0E0E0
+	color: #cbdad5;
 }
 
 a:hover {
@@ -38,45 +39,22 @@ a:hover {
 	text-decoration: none;
 }
 
-/*Albums*/
+/*Artitas*/
 
-.System_Of_A_Down {
-	background-color: #1A1A2E;
-	text-align: center;
-	
-	
-}
-
-
-.albums-row {
-  display: flex;                         
-  justify-content: center;
-  flex-wrap: wrap;        
-}
-
-.album-card {
-  width: 225px;
-  height: 350px;         
-  padding: 10px;
-  border: 2px solid #b38aff;
+.Artist {
+  background-color: #3A415A;
   text-align: center;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.album-card img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
+  padding: 15px;
+  border: 5px solid #89a7b1;
   display: block;
-  margin-bottom: 10px;
 }
 
-.album-card a img {
-  border: 2px solid transparent;
-  transition: 0.2s;
+.Artist img {
+  max-width: 150px;
+  max-height: 150px;
 }
 
-
+/*Estilo*/
+.numetal {
+  margin: 15px;
+}
