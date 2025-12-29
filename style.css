@@ -2,6 +2,10 @@ body {
 	background-color: #121212;
 }
 
+h1 {
+	color: #FFFFFF;
+}
+
 h2 {
 	color: #FFFFFF;
   	text-align: center;
@@ -16,10 +20,20 @@ a:hover {
 	filter: brightness(1.2);
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #121212;
+}
+
 /*Menu*/
 
 .menu {
-	text-align: right;
+	margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 .menu li {
@@ -37,6 +51,24 @@ a:hover {
 }
 
 .menu a:hover {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+.voltar {
+	text-align: left;
+}
+
+.voltar a {
+	background-color: transparent;
+	color: #D4AF37;
+	padding: 8px 15px;
+	border: 1px solid #D4AF37;
+	text-decoration: none;
+}
+
+.voltar a:hover {
 	background-color: #333;
 	color: #fff;
 	text-decoration: none;
