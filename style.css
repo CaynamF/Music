@@ -56,23 +56,6 @@ header {
 	text-decoration: none;
 }
 
-.voltar {
-	text-align: left;
-}
-
-.voltar a {
-	background-color: transparent;
-	color: #D4AF37;
-	padding: 8px 15px;
-	border: 1px solid #D4AF37;
-	text-decoration: none;
-}
-
-.voltar a:hover {
-	background-color: #333;
-	color: #fff;
-	text-decoration: none;
-}
 
 /*Artitas*/
 
@@ -101,4 +84,8 @@ header {
 .numetal {
   margin: 15px;
   text-align: center;
+}
+
+header {
+	background-color: #1D1D1D;
 }
