@@ -1,0 +1,91 @@
+body {
+	background-color: #121212;
+}
+
+h1 {
+	color: #FFFFFF;
+}
+
+h2 {
+	color: #FFFFFF;
+  	text-align: center;
+}
+
+p {
+	color: #A0A0A0;
+}
+
+a:hover {
+	border-color: #b38aff	;
+	filter: brightness(1.2);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #121212;
+}
+
+/*Menu*/
+
+.menu {
+	margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+	list-style-type: none;
+	margin: 5px;
+	display: inline-block;
+}
+
+.menu a {
+	background-color: transparent;
+	color: #D4AF37;
+	padding: 8px 15px;
+	border: 1px solid #D4AF37;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/*Artitas*/
+
+.Artist {
+  background-color: #1D1D1D;
+  text-align: center;
+  padding: 15px;
+  border: 1.5px solid #D4AF37;
+  display: inline-block;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.Artist:hover {
+	transform: translateY(-5px);
+}
+
+.Artist img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/*Estilo*/
+.numetal {
+  margin: 15px;
+  text-align: center;
+}
+
+header {
+	background-color: #1D1D1D;
+}
